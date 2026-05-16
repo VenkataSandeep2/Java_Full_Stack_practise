@@ -7,3 +7,6 @@ class Hello_01
       System.out.println(s +"  "+i);
     }
   }
+
+//    OUTPUT
+//     Hello java 515
