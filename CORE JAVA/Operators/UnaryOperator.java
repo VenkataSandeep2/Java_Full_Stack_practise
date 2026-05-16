@@ -59,7 +59,62 @@ class UnaryOperator
       
       res1 = num4++ + ++num2 + num2++;
       System.out.println(res1);
+      
+      int num6 = 5;
+      int num7 = 15;
+      System.out.println(num6--);
+      System.out.println(num6);
+      
+      System.out.println(--num6);
+      System.out.println(num6);
+      
+      System.out.println(--num4 + num5++ - ++num1 + num2++);
+      
     
       
     }
   }
+
+
+
+/*
+  OUTPUT
+The Unary Operators are a+ , a++ , ++a, a- , a-- , --a : post increment and preincremnt
+20
+-20
+10
+-10
+true
+false
+
+_____Increment operator___
+11
+21
+10
+20
+
+11
+21
+10
+20
+Here is both are same think but actually some logic to develop 
+Now see another example
+
+The post increment x++ is :- 10
+The num1 value is 11
+The pre increment ++x is :- 12
+16
+17
+22
+55
+67
+5
+4
+3
+3
+54
+
+=== Code Execution Successful ===
+
+
+*/
