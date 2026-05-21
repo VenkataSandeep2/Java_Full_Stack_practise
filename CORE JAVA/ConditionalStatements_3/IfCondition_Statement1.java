@@ -24,3 +24,14 @@ class IfCondition_Statement1
         }
     }
   }
+
+
+
+/*OUTPUT
+
+10 is big
+10 is big
+true
+
+=== Code Execution Successful ===
+  */
