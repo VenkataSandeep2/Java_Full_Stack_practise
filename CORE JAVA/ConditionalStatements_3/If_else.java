@@ -1,3 +1,5 @@
+import java.util.*;
+
 class If_else
   {
     public static void main(String args[])
@@ -23,9 +25,9 @@ class If_else
         }
         
         
-        
-        int score = 85;
-
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a marks ");
+        int score = sc.nextInt();
         if (score >= 90) 
         {
             System.out.println("Grade: A");
@@ -43,3 +45,23 @@ class If_else
     }
     
   }
+
+
+/*
+  OUTPUT
+Num is big 5
+10 is big
+Enter a marks 
+70
+Grade: C
+
+=== Code Execution Successful ===
+
+Num is big 5
+10 is big
+Enter a marks 
+95
+Grade: A
+
+=== Code Execution Successful ===
+*/
