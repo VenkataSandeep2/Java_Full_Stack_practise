@@ -1,5 +1,0 @@
-class Even_odd
-  {
-  
-    
-  }
