@@ -8,6 +8,7 @@ class PrimeNumber
       int num = sc.nextInt();
       PrimeNumber pm = new PrimeNumber();
       pm.checkisPrime(num);
+      
     }
 
     void checkisPrime(int num)
@@ -114,4 +115,222 @@ Enter a number :-
 === Code Execution Successful ===
 
 */
+
+import java.util.Scanner; 
+class PrimeNumber
+  {
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter a number :- ");
+      int num = sc.nextInt();
+      PrimeNumber pm = new PrimeNumber();
+    //  pm.checkisPrime(num);
+  //    pm.checkisPrime2(num);
+      pm.checkisPrime3(num);
+    }
+   void checkisPrime3(int num)
+    {
+       int count = 0;
+        for(int i = 2 ;i<num;i++)
+        {
+            if(num%i == 0)
+            {
+                count++;
+            }
+        }
+        if(count == 0 && num>1)
+        {
+            System.out.println(num +" is prime number");
+        }
+        else
+            {
+                System.out.println(num +" Not a prime number");
+            }          
+    }
+ }
+
+/*
+
+    OUTPUT
+Enter a number :- 
+71
+71 Not a prime number
+
+=== Code Execution Successful ===
+
+Enter a number :- 
+97
+97 Not a prime number
+
+=== Code Execution Successful ===
+
+
+*/
+
+
+import java.util.Scanner; 
+class PrimeNumber
+  {
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter a number :- ");
+      int num = sc.nextInt();
+      PrimeNumber pm = new PrimeNumber();
+    //  pm.checkisPrime(num);
+  //    pm.checkisPrime2(num);
+//      pm.checkisPrime3(num);
+      pm.checkisPrime4(num);
+    }
+ void checkisPrime4(int num)
+    {
+       int count = 0;
+        for(int i = 2 ; i <= num/2 ;i++)
+        {
+            if(num%i == 0)
+            {
+                count++;
+            }
+        }
+        if(count == 0)
+        {
+            System.out.println(num +" is prime number");
+            
+        }else
+            {
+                System.out.println(num +" Not a prime number");
+            }       
+    }
+}
+
+/*
+    OUTPUT
+Enter a number :- 
+10009
+10009 is prime number
+
+=== Code Execution Successful ===
+
+Enter a number :- 
+856
+856 Not a prime number
+
+=== Code Execution Successful ===
+*/
+
+import java.util.Scanner; 
+class PrimeNumber
+  {
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter a number :- ");
+      int num = sc.nextInt();
+      PrimeNumber pm = new PrimeNumber();
+    //  pm.checkisPrime(num);
+  //    pm.checkisPrime2(num);
+// //      pm.checkisPrime3(num);
+//       pm.checkisPrime4(num);
+      pm.checkisPrime5(num);
+    }
+ void checkisPrime4(int num)
+    {
+       int count = 0;
+        for(int i = 2 ; i <= Math.sqrt(num) ;i++)
+        {
+            if(num%i == 0)
+            {
+                count++;
+            }
+        }
+        if(count == 0)
+        {
+            System.out.println(num +" is prime number");
+            
+        }else
+            {
+                System.out.println(num +" Not a prime number");
+            }       
+    }
+}
+
+/*
+
+Enter a number :- 
+10009
+10009 is prime number
+
+=== Code Execution Successful ===
+
+  Enter a number :- 
+9989
+9989 Not a prime number
+
+=== Code Execution Successful ===
+
+  */
+
+
+import java.util.Scanner; 
+class PrimeNumber
+  {
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter a number :- ");
+      int num = sc.nextInt();
+      PrimeNumber pm = new PrimeNumber();
+    //  pm.checkisPrime(num);
+  //    pm.checkisPrime2(num);
+// //      pm.checkisPrime3(num);
+//       pm.checkisPrime4(num);
+          pm.checkisPrime5(num);
+      pm.checkisPrime6(num);
+    }
+ void checkisPrime6(int num)
+    {
+       int count = 0;
+        for(int i = 2 ; i <= Math.sqrt(num) ;i++)
+        {
+            if(num%i == 0)
+            {
+                count++;
+                break;
+            }
+        }
+        if(count == 0)
+        {
+            System.out.println(num +" is prime number");
+            
+        }else
+            {
+                System.out.println(num +" Not a prime number");
+            }       
+    }
+}
+
+/*
+
+
+Enter a number :- 
+10009
+10009 is prime number
+
+=== Code Execution Successful ===
+
+  Enter a number :- 
+9897
+9897 Not a prime number
+
+=== Code Execution Successful ===
+
+  Enter a number :- 
+88773
+88773 Not a prime number
+
+=== Code Execution Successful ===
+
+*/
+
 
