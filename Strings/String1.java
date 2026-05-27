@@ -3,7 +3,7 @@ class String1
 {
 public static void main(String args[])
 	{
-	String s = new String("Sandeep");
+	String s = new String("Sa_ndeep");
 	System.out.println(s);
 	System.out.println("The Object is:  "+s);
 	System.out.println("The Length of the String is :"+s.length());
