@@ -4,7 +4,7 @@ protected int sno,m1,m2,tot;
 protected double avg;
 	public void reada()
 	{
-	sno=101;
+	sno=151;
 	m1=40;
 	m2=42;
 	}	
