@@ -31,7 +31,7 @@ class Grandson extends Son
 private int gs;
 	public void readd()
 	{
-	gs = 1;  
+	gs = 21;  
 	}
 	public void print()
 	{
