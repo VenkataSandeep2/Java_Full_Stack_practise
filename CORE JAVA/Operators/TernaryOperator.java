@@ -22,3 +22,21 @@ class TernaryOperator
     System.out.println(numb);
     }
   }
+
+
+/*
+
+OUTPUT
+
+  Ternary Operator
+5 is big
+10 is big
+5 is big
+5 is big
+
+10is big
+positive
+
+=== Code Execution Successful ===
+
+  */
