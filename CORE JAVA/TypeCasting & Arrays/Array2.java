@@ -25,7 +25,7 @@ public class Array2
 //		
 //	}
 	System.out.println("-------Array-------");
-	System.out.println("Array elements: " + Arrays.toString(arr));
+	System.out.println("Array elements are : " + Arrays.toString(arr));
 	
 		
 		
