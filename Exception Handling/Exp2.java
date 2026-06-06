@@ -35,7 +35,7 @@ public class Exp2 {
       Hiiiiiiiiii
 2  ]) Enter a 2 values : 
       52
-      d
+      s
       java.util.InputMismatchException
       Hiiiiiiiiii
 
