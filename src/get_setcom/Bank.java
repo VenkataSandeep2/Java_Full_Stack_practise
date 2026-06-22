@@ -8,8 +8,9 @@ public class Bank
 		BankAccount bankacc = new BankAccount();
 		bankacc.setaccnum(354531);
 		bankacc.setbal(8543.16);
-
+		
 		System.out.println("Bank account number is :-> " + bankacc.getaccnum());
+		System.out.println();
 		System.out.println("Account balance is -> " + bankacc.getbal());
 	}
 }
