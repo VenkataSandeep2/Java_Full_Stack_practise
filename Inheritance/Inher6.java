@@ -1,9 +1,11 @@
 class GrandParent
 {
+	int a = 10;
  protected int gp;	//grandparent
 	public void reada()
 	{
-	gp = 75;
+	gp = 75
+		
 	}
 
 }
