@@ -27,7 +27,7 @@ public class BankAccount
 			
 			if(bal<0)
 			{
-				System.out.println("Balance is negative");
+				System.out.println("Balance is negative balance ");
 			}else
 			{
 				this.bal = bal;
