@@ -6,7 +6,7 @@ class myclass extends Thread
 	{
 	for(int i = 1; i<= 5; i++)
 	{
-		System.out.println("child thread " +i);
+		System.out.println("child threaddd " +i);
 	}
 	}	
 }
